@@ -9,13 +9,9 @@ function testSort() {
         testArray.push(Math.random() * 1000);
     }
 
-    testArrayCopy = JSON.parse(JSON.stringify(testArray));
-
-    console.log(testArray);
-    // console.time('insertion sort');
-    insertionSort(testArrayCopy);
-    // console.timeEnd('insertion sort');
-    console.log(testArrayCopy);
+    console.log(testArray.length);
+    console.time('insertion sort');
+    console.timeEnd('insertion sort');
 
 }
 
