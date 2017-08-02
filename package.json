@@ -1,0 +1,16 @@
+{
+  "name": "algotithms",
+  "version": "0.1.0",
+  "description": "algotithms",
+  "repository": "https://github.com/ggolikov/algotithms",
+  "main": "index.js",
+  "author": "Grigory Golikov gr.golikov@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "test": "node index.js",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "eslint": "^4.3.0"
+  }
+}
