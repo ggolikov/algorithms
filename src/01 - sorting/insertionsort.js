@@ -1,5 +1,9 @@
+/**
+ * insertion sorting
+ */
+
 function insertionSort(array) {
-    var len = array.length,
+    let len = array.length,
         i, j, key;
 
     for (i = 2; i < len; i++) {
@@ -15,4 +19,4 @@ function insertionSort(array) {
     }
 }
 
-module.exports = insertionSort;
+export default insertionSort;
